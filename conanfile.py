@@ -61,4 +61,4 @@ class MinioCppConan(ConanFile):
         cmake.install()
 
     def package_info(self):
-        self.cpp_info.libs = ["minio-cpp"]
+        self.cpp_info.libs = ["miniocpp"]
